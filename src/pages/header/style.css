@@ -1,0 +1,67 @@
+.header {
+  position: relative;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: block;
+    position: relative;
+    width: 230px;
+    height: 60px;
+    top: 0px;
+    left: 66px;
+}
+
+.nav{
+    left: 530px;
+    display: flex;
+    top: 30px;
+    position: absolute;
+}
+
+.ttpi {
+    padding: 2px 3px;
+    color: #aaa;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.ttpo {
+    opacity: 0.4;
+    color: white;
+}
+
+.srch_query {
+    outline: none;
+    background-color: #080808;
+    color: #ddd;
+    border: 2px solid #333;
+    border-right: 1px solid #333;
+    height: 25px;
+    width: 330px;
+    opacity: 0.5;
+    font-size: 12px;
+    padding-left: 7px;
+}
+
+#btnSearch {
+    -webkit-appearance: none;
+    outline: none;
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #333;
+    border-left: 1px solid #333;
+    height: 25px;
+    width: 105px;
+    opacity: 0.5;
+    cursor: pointer;
+    margin-left: 2px;
+    font-size: 13px;
+}
