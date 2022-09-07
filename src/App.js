@@ -2,6 +2,8 @@ import './App.css';
 import React from 'react';
 import Header from "./pages/header";
 import Category from './pages/navbarCategory';
+import BodyImg from './pages/bodyImg';
+import ListCard from './pages/listCard';
 
 function App() {
   const navCategory = [
@@ -29,8 +31,10 @@ function App() {
   ]
   return (
     <div className="App">
+      <BodyImg />
       <Header />
       <Category navCategory={navCategory}/>
+      <ListCard />
     </div>
   );
 }

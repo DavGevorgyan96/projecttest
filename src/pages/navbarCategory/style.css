@@ -1,14 +1,26 @@
-.category{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.category {
+    width: 960px;
+    margin: 0 auto;
 }
 
-.item a{
+
+.item {
+  width: 960px;
+  padding: 0;
+  margin: 0 auto !important;
+
+}
+
+.item li {
+  float: left;
+  list-style: none;
+}
+
+.item li a {
     transition: 0.2s;
     display: block;
     width: 132px;
-    height: 20px;
+    height: 23px;
     margin-left: 4px;
     margin-top: 4px;
     background-color: #181818;
@@ -16,10 +28,10 @@
     text-align: center;
     padding-top: 7px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
 }
 
-.item a:hover{
-    background-color: #333;
-    color: #ddd;
+.item li a:hover {
+  background-color: #333;
+  color: #ddd;
 }
